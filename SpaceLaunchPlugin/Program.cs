@@ -47,7 +47,7 @@ app.UseSwaggerUI(x =>
 });
 
 /// <summary>
-/// Gets space rocket launch information
+/// Gets space rocket launch information.....
 /// </summary>
 app.MapGet("/getlaunchinfo", async(int id) =>
 {
