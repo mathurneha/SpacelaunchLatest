@@ -47,7 +47,7 @@ app.UseSwaggerUI(x =>
 });
 
 /// <summary>
-/// Gets the weather for a latitude and longitude
+/// Gets space rocket launch information
 /// </summary>
 app.MapGet("/getlaunchinfo", async(int id) =>
 {
