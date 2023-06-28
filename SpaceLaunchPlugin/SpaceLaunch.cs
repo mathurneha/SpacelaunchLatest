@@ -6,6 +6,6 @@ public class SpaceLaunch
 
     public int FlightNumber { get; set; }
 
-    public string WebcastLink{ get; set; }
+    public string? WebcastLink{ get; set; }
 }
 

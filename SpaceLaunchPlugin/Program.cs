@@ -88,14 +88,11 @@ app.Run();
 
 internal class GetSpaceXResponse
 {
-    public string flightNumber { get; set; }
+    public string? flightNumber { get; set; }
 
-    public string webcast { get; set; }
+    public string? webcast { get; set; }
 
-    public GetSpaceXResponse() {
-        flightNumber = null;
-        webcast = null;
-    }
+    public GetSpaceXResponse() {    }
 
     public GetSpaceXResponse(JsonDocument jsonDoc)
     {
