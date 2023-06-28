@@ -92,7 +92,10 @@ internal class GetSpaceXResponse
 
     public string webcast { get; set; }
 
-    public GetSpaceXResponse() { }
+    public GetSpaceXResponse() {
+        flightNumber = null;
+        webcast = null;
+    }
 
     public GetSpaceXResponse(JsonDocument jsonDoc)
     {
