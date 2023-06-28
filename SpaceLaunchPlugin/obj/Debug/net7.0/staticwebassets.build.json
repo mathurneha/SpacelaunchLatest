@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZmDpqrLnawF+57yeHjj/2iUnsJktE0vsYLDfoCAo72Y=",
+  "Source": "SpaceLaunchPlugin",
+  "BasePath": "_content/SpaceLaunchPlugin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
